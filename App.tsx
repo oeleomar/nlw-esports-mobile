@@ -6,9 +6,11 @@ import {
   Inter_700Bold,
   Inter_900Black,
 } from '@expo-google-fonts/inter';
+
 import { Background } from './src/components/Background';
 import { Routes } from './src/routes';
 import { Loading } from './src/components/Loading';
+import { Subscription } from 'expo-modules-core';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
